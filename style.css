@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(32, 30, 39);
+    font-family: 'Poppins', sans-serif
+}
+
+h1 {
+    font-size: 53px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    margin-top: 2rem;
+}
+
+li {
+    text-indent: -1.3rem;
+}
+
+.img-container {
+    margin-right: 1.3rem;
+}
+
+.main-img {
+    width: 98%;
+    margin-top: 2rem;
+}
+
+.i-1 {
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+}
+.i-2 {
+    margin-left: 2.6rem;
+    margin-right: 2.6rem;
+}
+.i-3 {
+    margin-left: 3.9rem;
+    margin-right: 3.9rem;
+}
+.i-4 {
+    margin-left: 5.2rem;
+    margin-right: 5.2rem;
+}
+
+.list-margin {
+    margin: 2rem .65rem 2rem .65rem;
+}
+
+.list-no-margin {
+    margin: 0 .65rem 0 .65rem;
+}
+
+.img-below-header {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+main {
+    background-color: rgb(32, 30, 39);
+    color: white;
+    max-width: 62rem;
+    margin: auto;
+    line-height: 170%;
+}
+
+.main-a {
+    text-decoration: none;
+    color: #e6b42a;
+    opacity: 85%;
+}
+
+.main-a:hover {
+    color: #e6ba43;
+    opacity: 100%;
+}
+
+header {
+    background-color: #ffffff;
+}
+nav {
+    position: sticky;
+    top: 0;
+    margin: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-nav {
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    margin: -4px;
+    padding: 4px;
+    width: 7.3rem;
+}
+
+.right-nav:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: ease-in-out .2s;
+    
+    
+}
+
+.right-nav button{
+    display: flex;
+    align-items: center;
+    background-color: #e6b42a;
+    color: white;
+    padding: 8px;
+    border-color: #f3e460;
+    border-style: solid;
+    opacity: 85%;
+}
+
+.right-nav button:hover {
+    opacity: 100%;
+    transform: scale(1.07);
+    transition: ease-in-out .2s;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    height: 76px;
+}
+
+.ph-link {
+    margin-left: 13px;
+    text-decoration: none;
+    color: black;
+    background-color: #ffffff;
+}
+
+.ph-link:hover {
+    border-bottom: 2px solid rgb(32, 30, 39);
+    transition: ease-in-out 0.08s;
+}
+
+.left-nav a img{
+    margin-right: 26px;
+    height: 53px;
+    background-color: #ffffff;
+}
